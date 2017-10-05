@@ -9,7 +9,7 @@ function geoFindMe() {
   function success(position) {
     var latitude  = position.coords.latitude;
     var longitude = position.coords.longitude;
-    $.get( "", );
+    
   }
 
   function error() {
